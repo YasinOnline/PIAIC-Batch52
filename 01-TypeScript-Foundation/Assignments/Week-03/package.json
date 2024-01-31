@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  },
+  "dependencies": {
+    "init": "^0.1.2",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "week_03",
+  "description": "Class Assignments Submission Link: https://forms.gle/YyvdX1vTriyxYdJ3A",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

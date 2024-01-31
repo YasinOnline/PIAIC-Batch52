@@ -1,0 +1,31 @@
+"use strict";
+/*
+
+Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
+
+• Make a list of five or more usernames called current_users.
+• Make another list of five usernames called new_users. Make sure one or two of the new usernames are also in the current_users list.
+• Loop through the new_users list to see if each new username has already been used. If it has, print a message that the person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
+• Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
+
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+// List of current users
+let current_users = ["Ali", "Fatima", "Hassan", "Sara", "Ahmed"];
+// List of new users
+let new_users = ["Zainab", "Usman", "sara", "Ayesha", "Faisal"];
+// Convert current_users to lowercase for case-insensitive comparison
+let lowerCaseCurrentUsers = current_users.map((user) => user.toLowerCase());
+// Loop through the list of new users
+for (let i = 0; i < new_users.length; i++) {
+    // Convert new user to lowercase for case-insensitive comparison
+    let lowerCaseNewUser = new_users[i].toLowerCase();
+    // Check if the current new user exists in the list of current users
+    if (lowerCaseCurrentUsers.includes(lowerCaseNewUser)) {
+        console.log(new_users[i] + " will need to enter a new username.");
+    }
+    else {
+        console.log(new_users[i] + " is available.");
+    }
+}
+//# sourceMappingURL=Q32.js.map
