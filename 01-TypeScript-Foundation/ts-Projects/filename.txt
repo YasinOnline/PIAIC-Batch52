@@ -1,6 +1,4 @@
-.gitignore
-00-calculaator
-01-number-guessing-game
+filename.txt
 02-atm
 03-todo-list
 04-currency-converter
