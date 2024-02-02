@@ -1,0 +1,17 @@
+{
+  "name": "word-counter",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The user will enter a english paragraph and all that is needed is to just to implement counting characters and words without whitespaces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.13"
+  }
+}

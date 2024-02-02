@@ -1,0 +1,17 @@
+{
+  "name": "adventure-game",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This project is not GUI based. It is a console-based game. The video here shows how to develop the game in Java. You will take the requirements of the game from the video and develop the game in TypeScript and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.13"
+  }
+}
