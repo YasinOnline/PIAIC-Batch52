@@ -1,5 +1,5 @@
 {
-  "name": "00-calculator",
+  "name": "calculator",
   "type": "module",
   "version": "1.0.0",
   "description": "00-Project Simple CLi Based TypeScript Calculator",
