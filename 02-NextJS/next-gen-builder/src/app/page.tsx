@@ -5,6 +5,7 @@ export default function Home() {
     <div>
       <h1>Assalam-o-Alaikum,</h1>
       <h1>I am <strong>Mohammad Yasin</strong> and this is my first Next.js project.</h1>
+      <h2>This an update from Git/GitHub.</h2>
     </div>
   );
 }
