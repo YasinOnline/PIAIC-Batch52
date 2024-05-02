@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    padding: 1rem;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    text-transform: uppercase;
+}
