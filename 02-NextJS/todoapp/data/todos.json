@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Complete project proposal"
+    },
+    {
+      "id": "2",
+      "text": "Schedule meeting with stakeholders"
+    },
+    {
+      "id": "3",
+      "text": "Research market trends"
+    },
+    {
+      "id": "4",
+      "text": "Prepare presentation slides"
+    },
+    {
+      "id": "5",
+      "text": "Review project budget"
+    }
+  ]
+}
